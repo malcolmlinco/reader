@@ -25,4 +25,4 @@ jobs:
     
       - name: Run Ruff
         run: |
-          ruff check --output-format=github
+          ruff check --output-format=github --target-version=py38
