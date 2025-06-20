@@ -4,9 +4,11 @@ on:
     push:
         branches:
             - master
+            - github-actions-tutorial
     pull_request:
         branches:
             - master
+            
     # So that other workflows can call this one
     # - uses: realpython/reader/.github/workflows/test.yml@master
     workflow_call:
